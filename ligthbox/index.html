@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <style>
+      body {
+    background-color: #9aa4ae;
+    margin: 10px;
+        
+      }
+
+      
+
+      img.zoom {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+       
+      }
+
+      .transition {
+       
+        transform: scale(1.2);
+      }
+      
+    </style>
+    <script>
+      $(document).ready(function () {
+        $(".fancybox").fancybox({
+          openEffect: "none",
+          closeEffect: "none",
+        });
+
+        $(".zoom").hover(
+          function () {
+            $(this).addClass("transition");
+          },
+          function () {
+            $(this).removeClass("transition");
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container page-top">
+      <div class="row">
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4  col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/00-best-backgrounds-and-wallpaper-apps-for-android.jpg.webp"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/00-best-backgrounds-and-wallpaper-apps-for-android.jpg.webp"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/pexels-pixabay-268533.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/pexels-pixabay-268533.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/people1-bg22.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/people1-bg22.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/download.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/download.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/gettyimages-520898662-612x612.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/gettyimages-520898662-612x612.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+          href="images/istockphoto-1182650732-170667a.jpg"
+          class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/istockphoto-1182650732-170667a.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/sunflowers-3292932__340.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/sunflowers-3292932__340.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/pexels-pixabay-268533.jpg"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/pexels-pixabay-268533.jpg"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="col-lg-4 mt-lg-4 col-md-4 mt-lg-4 col-xs-6 mt-xs-2 thumb">
+          <a
+            href="images/gradient-summer-background-videocalls_52683-61337.webp"
+            class="fancybox"
+            rel="ligthbox"
+          >
+            <img
+              src="images/gradient-summer-background-videocalls_52683-61337.webp"
+              class="zoom img-fluid"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
